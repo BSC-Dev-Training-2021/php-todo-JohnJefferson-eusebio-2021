@@ -1,3 +1,8 @@
+<?php
+     session_start();
+     
+     
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -21,10 +26,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="completed.html">Completed</a>
+                        <a class="nav-link" href="completed.php">Completed</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="settings.html">Settings</a>
@@ -46,16 +51,7 @@
                     <!-- Tasks section-->
                     <section>
                         <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Buy groceries</li>
-                            <li class="list-group-item">Pay bills</li>
-                            <li class="list-group-item">Take dog for a walk</li>
-                            <li class="list-group-item">Fix broken chair</li>
-                            <li class="list-group-item">Do laundry</li>
-                            <li class="list-group-item">Buy groceries</li>
-                            <li class="list-group-item">Pay bills</li>
-                            <li class="list-group-item">Take dog for a walk</li>
-                            <li class="list-group-item">Fix broken chair</li>
-                            <li class="list-group-item">Do laundry</li>
+                        
                         </ul>
                     </section>
                     <nav aria-label="Page navigation example">
